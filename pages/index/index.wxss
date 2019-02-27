@@ -1,4 +1,9 @@
 /**index.wxss**/
+.cm {
+  display: flex;
+  align-items: center;
+}
+
 .userinfo {
   display: flex;
   flex-direction: column;
