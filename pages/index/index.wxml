@@ -1,17 +1,22 @@
 <!--index.wxml-->
-<view class="container">
+<scroll-view class="container">
   <!--advisement of TMC-->
-  <view class="cm">
-    <text>TMC</text>
+  <view class="advisement">
+    <image class="advisement-image" src="../../public/images/advisement.png"></image>
+    <text class="advisement-text">IBM Dalian ToastMasters Club</text>
   </view>
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称     </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+  
+  <!--functions of TMC-->
+
+  <!--functions of TMC-->
+  <view class="menu">
+    <view class="menu-box"><text>aaa</text></view>
+    <view class="menu-box"><text>bbb</text></view>
+    <view class="menu-box"></view>
+    <view class="menu-box"></view>
+    <view wx:if="{isOfficer}"></view>
+    <view wx:if="{isOfficer}"></view>
+    <view class="menu-box"></view>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
-</view>
+  
+</scroll-view>

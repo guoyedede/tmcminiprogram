@@ -1,8 +1,35 @@
 /**index.wxss**/
-.cm {
+.advisement {
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
+
+.advisement-image {
+  width: 46px;
+  height: 46px;
+}
+
+.advisement-text {
+  color: #aaa;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.menu-box {
+  width: 120px;
+  height: 120px;
+  margin: 5px;
+  background: rgb(255, 255, 76);
+}
+
 
 .userinfo {
   display: flex;
