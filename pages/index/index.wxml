@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<scroll-view class="container">
+<scroll-view class="pagecontainer">
   <!--advisement of TMC-->
   <view class="advisement">
     <image class="advisement-image" src="../../public/images/advisement.png"></image>
@@ -7,16 +7,23 @@
   </view>
   
   <!--functions of TMC-->
-
-  <!--functions of TMC-->
   <view class="menu">
-    <view class="menu-box"><text>aaa</text></view>
-    <view class="menu-box"><text>bbb</text></view>
-    <view class="menu-box"></view>
-    <view class="menu-box"></view>
-    <view wx:if="{isOfficer}"></view>
-    <view wx:if="{isOfficer}"></view>
-    <view class="menu-box"></view>
+    <view class="menu-box">
+      <image src="../../public/images/checkin.png"></image>
+      <text>会议打卡</text>
+      </view>
+    <view class="menu-box">
+      <image src="../../public/images/schedule.png"></image>
+      <text>会议日程</text>
+    </view>
+    <view wx:if="{{isOfficer}}" class="menu-box">
+      <image src="../../public/images/stastic.png"></image>
+      <text>出勤统计</text>
+    </view>
+    <view wx:if="{{isOfficer}}" class="menu-box">
+      <image src="../../public/images/identify.png"></image>
+      <text>图片识别</text>
+    </view>
   </view>
   
 </scroll-view>
