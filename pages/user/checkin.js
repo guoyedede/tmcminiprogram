@@ -1,18 +1,20 @@
 // pages/user/checkin.js
-Page({
+const app = getApp();
 
+Page({
   /**
    * Page initial data
    */
   data: {
-
+    testUserName: "guoye",
+    testMeetingName1: "IBM Dalian TMC 168th Meeting",
+    testMeetingDate1: new Date().toLocaleDateString()
   },
 
   /**
    * Lifecycle function--Called when page load
    */
   onLoad: function (options) {
-
   },
 
   /**

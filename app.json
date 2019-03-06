@@ -1,11 +1,12 @@
 {
   "pages":[
-    "pages/index/index",
     "pages/user/checkin",
+    "pages/index/index",
     "pages/user/takerole",
     "pages/officer/managecheckin",
     "pages/officer/managetakerole"
   ],
+
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",

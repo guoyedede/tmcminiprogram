@@ -1,2 +1,22 @@
 <!--pages/user/checkin.wxml-->
-<text>pages/user/checkin.wxml</text>
+<view class="pagecontainer">
+  <!-- userInfo -->
+  <view class="userInfo">
+    <image src="../../public/images/checkin.png"></image>
+    <text>{{testUserName}}</text>
+  </view>
+  
+  <view class="separateline"></view>
+
+  <!-- checkIn button -->
+  <view class="checkin-view">
+    <text>{{testMeetingName1}}</text>
+    <text>{{testMeetingDate1}}</text>
+    <view class="checkin-view-button">
+      <button type="primary" plain="true">CHECKIN</button>
+    </view>
+  </view>
+
+  <!-- calendar -->
+  
+</view>
