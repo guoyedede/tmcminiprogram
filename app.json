@@ -1,9 +1,10 @@
 {
   "pages":[
+    "pages/officer/managecheckin",
     "pages/user/checkin",
     "pages/index/index",
     "pages/user/takerole",
-    "pages/officer/managecheckin",
+    
     "pages/officer/managetakerole"
   ],
 

@@ -8,7 +8,9 @@ Page({
   data: {
     testUserName: "guoye",
     testMeetingName1: "IBM Dalian TMC 168th Meeting",
-    testMeetingDate1: new Date().toLocaleDateString()
+    testMeetingDate1: new Date().toLocaleDateString(),
+    hasChecked: false,
+    btnType: "primary"
   },
 
   /**

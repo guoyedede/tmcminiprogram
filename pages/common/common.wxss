@@ -37,3 +37,9 @@ page {
   height: 1px;
   background: #aaf1cc;
 }
+
+.separateline2 {
+  width: 100%;
+  height: 1px;
+  background: #adafae;
+}

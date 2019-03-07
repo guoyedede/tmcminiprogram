@@ -1,2 +1,33 @@
-<!--pages/officer/managecheckin.wxml-->
-<text>pages/officer/managecheckin.wxml</text>
+<!--pages/user/checkin.wxml-->
+<view class="pagecontainer">
+  <!-- managecheckIn area -->
+  <view class="managecheckin-view">
+    <text>IBM Dalian ToastMaster Club</text>
+    <text>出勤统计</text>
+    <view class="function-view">
+      <view class="function-view-button">
+        <button type="primary" plain="true">上月全勤</button>
+      </view>
+      <view class="function-view-button">
+        <button type="primary" plain="true">出勤导出\n到XLS</button>
+      </view>
+    </view>
+    <!-- list -->
+    <view class="function-view-list">
+      <view class="separateline2"></view>
+      <view class="function-view-listitem">
+        <image src="../../public/images/checkin.png"></image>
+        <text>guoye</text>
+      </view>
+      <view class="function-view-listitem">
+        <image src="../../public/images/checkin.png"></image>
+        <text>guoye</text>
+      </view>
+      <view class="function-view-listitem">
+        <image src="../../public/images/checkin.png"></image>
+        <text>guoye</text>
+      </view>
+    </view>
+    <!-- progressbar -->
+  </view>
+</view>
