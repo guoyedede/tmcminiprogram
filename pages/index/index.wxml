@@ -1,5 +1,4 @@
 <!--index.wxml-->
-<body>
 <scroll-view class="pagecontainer">
   <!--advisement of TMC-->
   <view class="advisement">
@@ -8,30 +7,29 @@
   
   <!--functions of TMC-->
   <view class="menu">
-    <view class="menu-box">
+    <view class="menu-box" bindtap="gotoCheckin" hover-class="menu-box-click">
       <image src="../../public/images/checkin.png"></image>
       <text>会议打卡</text>
       </view>
-    <view class="menu-box">
+    <view class="menu-box" bindtap="gotoSchedule" hover-class="menu-box-click">
       <image src="../../public/images/schedule.png"></image>
       <text>会议日程</text>
     </view>
-    <view wx:if="{{isOfficer}}" class="menu-box">
+    <view wx:if="{{isOfficer}}" class="menu-box" hover-class="menu-box-click">
       <image src="../../public/images/appointment.png"></image>
       <text>会议安排</text>
     </view>
-    <view wx:if="{{isOfficer}}" class="menu-box">
+    <view wx:if="{{isOfficer}}" class="menu-box" hover-class="menu-box-click">
       <image src="../../public/images/stastic.png"></image>
       <text>出勤统计</text>
     </view>
-    <view wx:if="{{isOfficer}}" class="menu-box">
+    <view wx:if="{{isOfficer}}" class="menu-box" hover-class="menu-box-click">
       <image src="../../public/images/identify.png"></image>
       <text>图片识别</text>
     </view>
-    <view class="menu-box">
+    <view class="menu-box" hover-class="menu-box-click">
       <image src="../../public/images/inquire.png"></image>
       <text>关于头马</text>
     </view>
   </view>
 </scroll-view>
-</body>

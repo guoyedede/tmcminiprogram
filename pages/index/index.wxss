@@ -37,6 +37,10 @@
   align-items: center;
 }
 
+.menu-box-click {
+  background: #f7f7d4;
+}
+
 .menu-box image {
   width: 32px;
   height: 32px;

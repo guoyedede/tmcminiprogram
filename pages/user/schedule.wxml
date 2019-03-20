@@ -1,0 +1,3 @@
+<!--pages/user/schedule.wxml-->
+<text>pages/user/schedule.wxml</text>
+<calender />
