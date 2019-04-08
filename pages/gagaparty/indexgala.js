@@ -1,27 +1,18 @@
-// pages/user/checkin.js
-const app = getApp();
-
+// pages/gagaparty/indexgala.js
 Page({
+
   /**
    * Page initial data
    */
   data: {
-    testUserName: "guoye",
-    testMeetingName1: "IBM Dalian TMC 168th Meeting",
-    testMeetingDate1: new Date().toLocaleDateString(),
-    hasChecked: false,
-    btnType: "primary"
+
   },
 
   /**
    * Lifecycle function--Called when page load
    */
   onLoad: function (options) {
-    const tempHasChecked = wx.getStorage("" + this.testMeetingName1);
-    console.log(tempHasChecked);
-    if (tempHasChecked) {
-      this.setData({ hasChecked: true });
-    }
+
   },
 
   /**
@@ -71,15 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-  clickCheckin: function(event) {
-    const self = this;
-
-    this.setData({ hasChecked: true });
-    wx.setStorage({
-      "key": "" + self.testMeetingName1,
-      "data": self.hasChecked
-      })
   }
 })

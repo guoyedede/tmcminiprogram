@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/gagaparty/indexgala",
     "pages/index/index",
     "pages/officer/managecheckin",
     "pages/user/checkin",

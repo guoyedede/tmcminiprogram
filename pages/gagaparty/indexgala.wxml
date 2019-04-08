@@ -1,0 +1,19 @@
+<!--pages/gagaparty/indexgala.wxml-->
+<view class="pagecontainer">
+  <view class="pagewholeview">
+    
+    <!-- welcome -->
+    <text>Welcome to 2019 Gala Party</text>
+    
+    <!-- user info -->
+    <view class="userinfo">
+      <image src="../../public/images/checkin.png"></image>
+      <text>guoye</text>
+    </view>
+
+    <!-- the area for display the number after they joined this activity -->
+    <view class="userinfo">  
+      <button plain='primary'>JOIN</button>
+    </view>
+  </view>
+</view>

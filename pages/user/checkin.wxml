@@ -14,7 +14,7 @@
     <text>{{testMeetingName1}}</text>
     <text>{{testMeetingDate1}}</text>
     <view class="checkin-view-button">
-      <button type="{{btnType}}" plain="{{!hasChecked}}" disabled="{{hasChecked}}">CHECKIN</button>
+      <button type="{{btnType}}" plain="{{!hasChecked}}" disabled="{{hasChecked}}" bindtap="clickCheckin">CHECKIN</button>
     </view>
   </view>
 </view>
